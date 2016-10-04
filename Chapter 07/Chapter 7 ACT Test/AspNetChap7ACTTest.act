@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Project>
+<Project version="1.0.527.0" created="8/25/2002 4:57:15 PM" modified="1/1/2000">
+	<Test name="Login_Select_Checkout_1" file="Login_Select_Checkout_1.vbs" type="Dynamic" settings="testProperties-Login_Select_Checkout_1.xml">
+		<ClientGroup name="Default Clients Group"/>
+		<Report name="report-Login_Select_Checkout_1-Aug 26, 2002 02-07-30" file="report-Login_Select_Checkout_1-Aug 26, 2002 02-07-30.xml"/>
+		<Report name="report-Login_Select_Checkout_1-Aug 28, 2002 00-59-44" file="report-Login_Select_Checkout_1-Aug 28, 2002 00-59-44.xml"/>
+		<Report name="report-Login_Select_Checkout_1-Aug 28, 2002 23-09-39" file="report-Login_Select_Checkout_1-Aug 28, 2002 23-09-39.xml"/>
+		<Report name="report-Login_Select_Checkout_1-Aug 28, 2002 23-23-44" file="report-Login_Select_Checkout_1-Aug 28, 2002 23-23-44.xml"/>
+		<PerfCounters file="perfCounters-Login_Select_Checkout_1.xml"/>
+	</Test>
+	<Test name="Category_Fiction_History" file="Category_Fiction_History.vbs" type="Dynamic" settings="testProperties-Category_Fiction_History.xml">
+		<UserGroup name="Default Users Group"/>
+		<ClientGroup name="Default Clients Group"/>
+		<Report name="5_SimConnections" file="report-Category_Fiction_History-Aug 28, 2002 23-31-05.xml"/>
+		<Report name="10_SimConnections" file="report-Category_Fiction_History-Aug 28, 2002 23-35-11.xml"/>
+		<Report name="1_SimConnection" file="report-Category_Fiction_History-Aug 28, 2002 23-40-38.xml"/>
+		<Report name="7_SimConnections" file="report-Category_Fiction_History-Aug 28, 2002 23-48-18.xml"/>
+		<Report name="15_SimConnections" file="report-Category_Fiction_History-Aug 28, 2002 23-56-08.xml"/>
+		<Report name="25_SimCOnnections" file="report-Category_Fiction_History-Aug 29, 2002 00-00-42.xml"/>
+		<Report name="50_SimConnections" file="report-Category_Fiction_History-Aug 29, 2002 00-06-19.xml"/>
+		<Report name="75-SimConnections" file="report-Category_Fiction_History-Aug 29, 2002 00-12-45.xml"/>
+		<Report name="100-SimConnections" file="report-Category_Fiction_History-Aug 29, 2002 17-29-55.xml"/>
+		<PerfCounters file="perfCounters-Category_Fiction_History.xml"/>
+	</Test>
+	<Test name="BrowserTest" file="BrowserTest.vbs" type="Dynamic" settings="testProperties-BrowserTest.xml">
+		<UserGroup name="Default Users Group"/>
+		<ClientGroup name="Default Clients Group"/>
+		<Report name="report-BrowserTest-Aug 29, 2002 15-38-19" file="report-BrowserTest-Aug 29, 2002 15-38-19.xml"/>
+		<Report name="report-BrowserTest-Aug 29, 2002 15-40-06" file="report-BrowserTest-Aug 29, 2002 15-40-06.xml"/>
+		<PerfCounters file="perfCounters-BrowserTest.xml"/>
+	</Test>
+	<Test name="PageTest" file="PageTest.vbs" type="Dynamic" settings="testProperties-PageTest.xml">
+		<UserGroup name="Default Users Group"/>
+		<ClientGroup name="Default Clients Group"/>
+		<Report name="report-PageTest-Aug 29, 2002 16-01-14" file="report-PageTest-Aug 29, 2002 16-01-14.xml"/>
+		<Report name="report-PageTest-Aug 29, 2002 16-02-12" file="report-PageTest-Aug 29, 2002 16-02-12.xml"/>
+		<Report name="report-PageTest-Aug 29, 2002 16-04-17" file="report-PageTest-Aug 29, 2002 16-04-17.xml"/>
+		<PerfCounters file="perfCounters-PageTest.xml"/>
+	</Test>
+	<UserGroupDef name="Default Users Group" file="userGroup-Default Users Group.xml"/>
+	<UserGroupDef name="SampelUserGroup1" file="userGroup-SampelUserGroup1.xml"/>
+	<ClientGroupDef name="Default Clients Group" file="clientGroup-Default Clients Group.xml"/>
+	<DefaultValues file="properties.xml"/>
+</Project>

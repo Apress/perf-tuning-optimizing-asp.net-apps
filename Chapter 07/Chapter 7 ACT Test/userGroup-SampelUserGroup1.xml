@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE UserGroup>
+<UserGroup last="6">
+	<User name="user1" passwd="pass">
+	</User>
+	<User name="user2" passwd="pass">
+	</User>
+	<User name="user3" passwd="pass">
+	</User>
+	<User name="user4" passwd="pass">
+	</User>
+	<User name="user5" passwd="pass">
+	</User>
+</UserGroup>

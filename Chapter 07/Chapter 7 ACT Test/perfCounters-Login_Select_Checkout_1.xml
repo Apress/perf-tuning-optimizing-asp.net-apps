@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE PerfCounters>
+<PerfCounters >
+	<Counter name="\\DMB1\Web Service(Default Web Site)\Bytes Total/sec"/>
+	<Counter name="\\DMB1\Processor(_Total)\% Processor Time"/>
+</PerfCounters>
